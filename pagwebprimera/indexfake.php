@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
+    <!-- NUEVO PHP --> 
     <head>
-        <title>Paguina Principal </title>
+        <title>Mi Empresa | Inicio</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -17,22 +18,25 @@
            }
         </style>
     </head>
-    <!-- COLOR PARA EL FONDO DE TODA LA PAGINA --> 
+        <!-- COLOR PARA EL FONDO DE TODA LA PAGINA --> 
+
     <body style="background-color: #0b1f3a;">
+    
         <!-- navbar -->    
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
     <a class="navbar-brand" href="index.php">
-        <!-- SEGUNDA PARTE DEL LOGO CON IMAGEN --> 
+        <!-- SEGUNDA PARTE DEL LOGO --> 
         <img src="img/ddd.png" class="logo">
     </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
             <li class="nav-item dropdown">
-                <!-- CAMBIO EN EL NOMBRE DEL DROPDOWN MENU Y EN LAS OPCIONES --> 
+                <!-- CAMBIOS EN EL DROPDOWN MENU --> 
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Opciones</a>
             <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="Contactos.php">Go to 1</a></li>
@@ -41,12 +45,11 @@
             <li><a class="dropdown-item" href="indexfake.php">And go to Fake index again</a></li>
           </ul>
         </li>
-        <!-- CAMBIOS EN COMO SE LLAMA CADA PARTE DEL NAVBAR --> 
         <li class="nav-item">
           <a class="nav-link" href="Productos.php">ONE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Servicios.php">CAROUSEL</a>
+          <a class="nav-link" href="Servicios.php">Carousel</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Contactos.php">THREE</a>
@@ -58,10 +61,9 @@
         </nav>
     
         <!-- container -->
-        <div class="container-fluid bg-warning">
-            <div>
-                <div class="container-fluid">
-                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="container-fluid">
+            <div class="container">
+             <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
                 <!-- Indicators/dots -->
                 <div class="carousel-indicators">
@@ -71,16 +73,16 @@
                 </div>
 
                 <!-- The slideshow/carousel -->
+                 <!-- CAMBIOS EN LAS IMAGENES DEL CAROUSEL --> 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <!-- CAMBIOS EN LAS IMAGENES --> 
-                    <img src="img/UNAB.png" alt="Los Angeles" class="d-block w-100">
+                    <img src="img/YL.png" alt="Los Angeles" class="d-block w-100">
                     </div>
                     <div class="carousel-item">
-                    <img src="img/YL.png" alt="Chicago" class="d-block w-100">
+                    <img src="img/OL.png" alt="Chicago" class="d-block w-100">
                     </div>
                     <div class="carousel-item">
-                    <img src="img/OL.png" alt="New York" class="d-block w-100">
+                    <img src="img/UNAB.png" alt="New York" class="d-block w-100">
                     </div>
                 </div>
 
@@ -93,17 +95,12 @@
                     </button>
                 </div>       
             </div>
-        </div>
+        </div>   
+            </div>
+
 
         <!-- footer -->
-        <div class="container-fluid bg-dark">
-            <div class="row">
-                <div class="col-4"></div>
-                <div class="col-4 d-flex justify-content-center"
-                style="color:white"><strong>Miempresa@hotmail.com</strong></div>
-                <div class="col-4"></div>
-            </div>
-        </div>
+        
          <!-- modal -->
           <div class="modal fade" id="myModal">
   <div class="modal-dialog">

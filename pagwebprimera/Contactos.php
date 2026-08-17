@@ -43,12 +43,15 @@
     
         <!-- container -->
         <div class="container-fluid bg-warning">
-            Pagina Principal<br>
-            <a href="index.php"> ir a Principal </a><br>
-            <a href="Empresa.php"> ir a Empresa </a><br>
-            <a href="Productos.php"> ir a Productos </a><br>
-            <a href="Servicios.php"> ir a Servicios </a><br>
-            <a href="Contactos.php"> ir a Contactos </a>
+            <form action="Empresa.php">
+            <div class="mb-2 mt-2">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <label for="comment">Comments:</label>
+            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+            <buttone type="submit" class="btn btn-primary mt-1">Enviar</button>
+            </form>
         </div>
 
         <!-- footer -->

@@ -42,7 +42,7 @@
             <li><a class="dropdown-item" href="Contactos.php">Go to 1</a></li>
             <li><a class="dropdown-item" href="Empresa.php">Go to 2</a></li>
             <li><a class="dropdown-item" href="Servicios.php">Go to 3</a></li>
-            <li><a class="dropdown-item" href="indexfake.php">And go to Fake index again</a></li>
+            <li><a class="dropdown-item" href="indexfake.php">And go to Fake index</a></li>
           </ul>
         </li>
         <li class="nav-item">
